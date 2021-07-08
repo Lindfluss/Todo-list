@@ -1,0 +1,58 @@
+body{
+    font-family: Titillium Web, sans-serif;
+    background: deepskyblue;
+}
+.container{
+    display: flex;
+    margin: 10px;
+}
+.content{
+    max-width: 800px;
+    display: flex;
+    flex-flow: column;
+    width: 100%;
+    margin: 0px 10px;
+    margin: 0 auto;
+    background: white;
+    border-radius: 3px;
+    padding: 10px;
+}
+header{
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 1.8rem;
+    margin: 0 0 20px 10px;
+}
+.text{
+    width: 93%; 
+    border: none;
+    border-bottom: 1px solid deepskyblue;
+    background-color:transparent;
+    outline: none;
+    padding: 10px 20px 10px 10px;
+    opacity: 0.6;
+}
+
+.content ul li{
+    list-style-type: none;
+    margin: 10px 0 20px -15px;
+}
+.content ul li span{
+    float: right;
+    margin: 0 40px 0 0;
+}
+.content ul li span .check{
+    margin: 0 15px;
+}
+.fas,.far{
+    color: deepskyblue;
+}
+.fa-arrow-right{
+    position: relative;
+    margin-left: -30px;
+    color: black;
+}
+.clear{
+    color: deepskyblue;
+    margin: 0 0 0 10px;
+}
